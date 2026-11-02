@@ -1,6 +1,5 @@
-// Somente a URL do projeto e a chave PUBLICÁVEL do Supabase entram neste arquivo.
-// Nunca coloque aqui uma senha, uma chave secreta ou service_role.
+// O identificador do seu projeto indica a URL abaixo. Confirme no Supabase em Project Settings → API.
 window.HABITA_CRM_CONFIG = {
-  supabaseUrl: "zezuvbogqfremndjocja",
-  publishableKey: "us-west-2"
+  supabaseUrl: "https://zezuvbogqfremndjocja.supabase.co",
+  publishableKey: "COLE_AQUI_A_CHAVE_PUBLICAVEL_SB_PUBLISHABLE"
 };

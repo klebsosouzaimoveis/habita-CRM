@@ -8,7 +8,7 @@ Esta versão usa login por e-mail e senha no Supabase e sincroniza os cadastros 
 2. Abra SQL Editor, cole o conteúdo de supabase-setup.sql e execute.
 3. Em Authentication → Sign In / Providers, mantenha Email habilitado e desative novos cadastros públicos.
 4. Em Authentication → Users, crie sua conta com seu e-mail e senha. Use essa mesma conta em todos os aparelhos.
-5. Nas configurações do projeto, copie a Project URL e a publishable key (prefixo sb_publishable_) para config.js.
+5. Em Project Settings → API Keys (ou API), copie a Project URL completa (https://...supabase.co) e a publishable key (prefixo sb_publishable_) para config.js. Não cole a região do projeto no campo da chave.
 
 A chave publicável fica visível no site por definição. A proteção dos clientes vem do login e das políticas RLS do SQL. Nunca use a chave secreta service_role no navegador ou no GitHub. O Supabase recomenda RLS nas tabelas expostas e autorização por auth.uid().
 
