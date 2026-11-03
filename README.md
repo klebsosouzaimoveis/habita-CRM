@@ -18,7 +18,7 @@ O CRM já existe. Este pacote acrescenta a ficha em uma subpasta para não troca
    - Em `ficha/index.html`: `EDGE_FUNCTION_URL`, `TURNSTILE_SITE_KEY` e `SUPABASE_PUBLISHABLE_KEY`.
    - Em `ficha/admin.html`: `SUPABASE_URL` e `SUPABASE_ANON_KEY` (ou publishable key).
    - URL da função: `https://SEU_PROJECT_REF.supabase.co/functions/v1/receber-ficha`.
-8. **Salve as alterações no GitHub** (commit). O Pages publicará a ficha em `https://klebsosouzaimoveis.github.io/habita-CRM/ficha/`; sua área restrita ficará em `https://klebsosouzaimoveis.github.io/habita-CRM/ficha/admin.html`.
+8. **Salve as alterações no GitHub** (commit). O Pages publicará a ficha em `https://klebsosouzaimoveis.github.io/habita-CRM/ficha/`; sua área restrita ficará em `https://klebsosouzaimoveis.github.io/habita-CRM/admin.html`.
 9. **Teste com dados fictícios.** Preencha a ficha e confirme o envio; depois entre na área restrita com sua conta do CRM e confira o registro.
 
 Quem preenche não cria conta. O login é só para você consultar as fichas. Se o envio falhar, a ficha avisa e oferece gerar o PDF sem enviar os dados.
